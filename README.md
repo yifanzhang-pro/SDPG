@@ -1,7 +1,7 @@
 # SDPG: Self-Distilled Policy Gradient
 
 [![arXiv](https://img.shields.io/badge/arXiv-2606.04036-b31b1b.svg)](https://arxiv.org/abs/2606.04036)
-[![Website](https://img.shields.io/badge/Project-Website-blue)](https://complex-reasoning.github.io/SDPG) 
+[![Website](https://img.shields.io/badge/Project-Website-blue)](https://lauyikfung.github.io/SDPG) 
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.6.0-orange.svg) 
@@ -10,7 +10,7 @@ On-policy self-distillation, where a language model conditions on privileged con
 
 - Authors: [Yifeng Liu](https://lauyikfung.github.io)\*, [Shiyuan Zhang](https://scholar.google.com/citations?user=MpeEZ0IAAAAJ)\*, [Yifan Zhang](https://yifzhang.com)\*, [Quanquan Gu](https://web.cs.ucla.edu/~qgu/)
 
-[[Webpage](https://complex-reasoning.github.io/SDPG)] [[Huggingface](https://huggingface.co/papers/2606.04036)]
+[[Webpage](https://lauyikfung.github.io/SDPG)] [[Huggingface](https://huggingface.co/papers/2606.04036)]
 
 ## Methods
 
