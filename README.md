@@ -171,6 +171,7 @@ If you use SDPG in your research or application, please consider citing it!
 @article{liu2026self,
       title={Self-Distilled Policy Gradient}, 
       author={Liu, Yifeng and Zhang, Shiyuan and Zhang, Yifan and Gu, Quanquan},
-      journal={arXiv preprint arXiv:2606.04036}, 
+      journal={arXiv preprint arXiv:2606.04036},
+      year={2026}
 }
 ```
