@@ -237,7 +237,7 @@
           <div class="column is-4"><div class="pillar-box"><span class="eyebrow">03</span><h3 style="margin-top:.4rem">Policy anchor &amp; gates</h3><p>Reference-policy KL, positive-advantage gating, and a warmup-decay schedule for $\beta(k)$ keep the privileged signal useful without over-constraining the reasoning policy.</p></div></div>
         </div>
         <div class="box"><h3>Local policy-gradient view</h3><p>With the privileged branch detached, reverse-KL OPD has the same fixed-prefix student-side gradient as a detached-sampling update with a centered log teacher/student ratio advantage.</p>
-          <div class="math-block">$\nabla_\theta D_{\mathrm{KL}}(p_t\|\mathrm{SG}[q_t]) \;\Longleftrightarrow\; \nabla_\theta\,\mathbb E_{a\sim p_t}[-\log p_t(a)\,\mathrm{SG}(\bar D_t-\log \bar p_t(a)/\bar q_t(a))]$</div>
+          <div class="math-block">$\nabla_\theta D_{\mathrm{KL}}(p_t\|\mathrm{SG}[q_t]) \;\Longleftrightarrow\; \nabla_\theta\,\mathbb E_{a\sim p_t}[-\log p_t(a)\,\mathrm{SG}(\log \bar q_t(a)/\bar p_t(a)+\bar D_t)]$</div>
         </div>
       </div>
     </div></section>
